@@ -2,53 +2,82 @@
 	box-sizing: border-box;
 }
 
+html,
 body {
-	margin: 0;
 	background: #1a1b21;
 	color: white;
 	font-family: 'Inter', sans-serif;
-	font-size: 11px;
+	font-size: 10px;
+	margin: 0;
 }
 
-.container {
+#root {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	padding-top: 45px;
+}
+.container {
+	border: 5px solid magenta;
+	max-width: 320px;
 }
 
 .InfoSection {
 	text-align: center;
 }
 
-.InfoSection > .InfoPhoto {
+.AboutSection > h2 {
+	margin: 32px 35px 0px;
+	font-size: 16px;
+	color: #f5f5f5;
+}
+
+.AboutSection > p {
+	margin: 5px 35px 0px;
+	color: #dcdcdc;
+}
+
+.InterestsSection > h2 {
+	margin: 27px 35px 0px;
+	font-size: 16px;
+	color: #f5f5f5;
+}
+
+.InterestsSection > p {
+	margin: 5px 35px 0px;
+	color: #dcdcdc;
+}
+
+.FooterSection {
+	border: 5px solid lightcoral;
+	margin: 10px;
+}
+
+.InfoSection > img {
 	width: 300px;
 	border-radius: 10px 10px 0px 0px;
 }
 
 .InfoSection > h1 {
-	margin: 0;
-	padding-top: 22px;
+	margin: 22px 0px 0px;
 	font-size: 25px;
 }
 
 .InfoSection > h2 {
-	margin: 0;
+	margin: 7px 0px 0px;
 	font-weight: normal;
 	font-size: 13px;
-	padding-top: 7px;
 	color: #f3bf99;
 }
 
 .InfoSection > p {
-	margin: 0;
-	padding-top: 9px;
+	margin: 9px 0px 0px;
+	color: #f5f5f5;
 }
 
 .InfoSection > button {
-	margin-top: 16px;
-	width: 250px;
-	height: 35px;
+	margin: 16px 0px 0px;
+	width: 247px;
+	height: 34px;
 	font-family: 'Inter';
 	font-size: 14px;
 	color: #374151;
