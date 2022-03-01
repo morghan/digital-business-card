@@ -1,4 +1,6 @@
 * {
+	/*this is to avoid changes in sizes 
+	due borders and padding*/
 	box-sizing: border-box;
 }
 
@@ -10,46 +12,24 @@ body {
 	font-size: 10px;
 	margin: 0;
 }
-
+/*
+To center the container appended to root, it was
+easier (or necessary with my current knowledge)
+to change the root's display to flex and assign
+a max-width to the container 
+*/
 #root {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 }
 .container {
-	border: 5px solid magenta;
 	max-width: 320px;
 }
 
 .InfoSection {
+	margin-top: 44px;
 	text-align: center;
-}
-
-.AboutSection > h2 {
-	margin: 32px 35px 0px;
-	font-size: 16px;
-	color: #f5f5f5;
-}
-
-.AboutSection > p {
-	margin: 5px 35px 0px;
-	color: #dcdcdc;
-}
-
-.InterestsSection > h2 {
-	margin: 27px 35px 0px;
-	font-size: 16px;
-	color: #f5f5f5;
-}
-
-.InterestsSection > p {
-	margin: 5px 35px 0px;
-	color: #dcdcdc;
-}
-
-.FooterSection {
-	border: 5px solid lightcoral;
-	margin: 10px;
 }
 
 .InfoSection > img {
@@ -86,10 +66,52 @@ body {
 	border-radius: 6px;
 }
 
+/*
+This is to align all elements inside a button
+*/
 .InfoSection > button > * {
 	vertical-align: middle;
 }
 
 .InfoSection > button > span {
 	margin-left: 8px;
+}
+
+.AboutSection > h2 {
+	margin: 32px 35px 0px;
+	font-size: 16px;
+	color: #f5f5f5;
+}
+
+.AboutSection > p {
+	margin: 5px 35px 0px;
+	color: #dcdcdc;
+}
+
+.InterestsSection > h2 {
+	margin: 27px 35px 0px;
+	font-size: 16px;
+	color: #f5f5f5;
+}
+
+.InterestsSection > p {
+	margin: 5px 35px 0px;
+	color: #dcdcdc;
+}
+
+.FooterSection {
+	background: #161619;
+	border-radius: 0px 0px 10px 10px;
+	height: 64px;
+	margin-top: 24px;
+}
+
+.FooterSection > img {
+	width: 26px;
+	margin-inline: 12px;
+	margin-block: 19.5px;
+}
+
+.FooterSection > img:nth-child(1) {
+	margin-left: 48px;
 }
