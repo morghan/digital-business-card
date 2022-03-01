@@ -1,0 +1,66 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	background: #1a1b21;
+	color: white;
+	font-family: 'Inter', sans-serif;
+	font-size: 11px;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-top: 45px;
+}
+
+.InfoSection {
+	text-align: center;
+}
+
+.InfoSection > .InfoPhoto {
+	width: 300px;
+	border-radius: 10px 10px 0px 0px;
+}
+
+.InfoSection > h1 {
+	margin: 0;
+	padding-top: 22px;
+	font-size: 25px;
+}
+
+.InfoSection > h2 {
+	margin: 0;
+	font-weight: normal;
+	font-size: 13px;
+	padding-top: 7px;
+	color: #f3bf99;
+}
+
+.InfoSection > p {
+	margin: 0;
+	padding-top: 9px;
+}
+
+.InfoSection > button {
+	margin-top: 16px;
+	width: 250px;
+	height: 35px;
+	font-family: 'Inter';
+	font-size: 14px;
+	color: #374151;
+	background: white;
+	border: 1px solid #d1d5db;
+	border-radius: 6px;
+}
+
+.InfoSection > button > * {
+	vertical-align: middle;
+}
+
+.InfoSection > button > span {
+	margin-left: 8px;
+}
