@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/digital-business-card/static/css/main.c3e1cc82.css",
+    "main.js": "/digital-business-card/static/js/main.33e3b4b8.js",
+    "static/media/photo.jpg": "/digital-business-card/static/media/photo.fc25224f1a4b0269c514.jpg",
+    "static/media/InstagramIcon.svg": "/digital-business-card/static/media/InstagramIcon.b65fd1ea807b0dd362e3fc5606fde418.svg",
+    "static/media/GitHubIcon.svg": "/digital-business-card/static/media/GitHubIcon.a6e245a37f0e87cef1e51c9c7e94ea47.svg",
+    "static/media/TwitterIcon.svg": "/digital-business-card/static/media/TwitterIcon.5cb28d333b8d6744d0d9178c7ad1972d.svg",
+    "index.html": "/digital-business-card/index.html",
+    "static/media/LinkedinIcon.svg": "/digital-business-card/static/media/LinkedinIcon.f6c23309e78849945a3d9dce42769c2f.svg",
+    "static/media/FacebookIcon.svg": "/digital-business-card/static/media/FacebookIcon.1c2e1e60a9fefe1f4cc327632f5ffc3b.svg",
+    "static/media/Icon.svg": "/digital-business-card/static/media/Icon.12311bb5f750b2033d3f62c935e0126b.svg",
+    "main.c3e1cc82.css.map": "/digital-business-card/static/css/main.c3e1cc82.css.map",
+    "main.33e3b4b8.js.map": "/digital-business-card/static/js/main.33e3b4b8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c3e1cc82.css",
+    "static/js/main.33e3b4b8.js"
+  ]
+}
